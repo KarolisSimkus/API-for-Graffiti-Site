@@ -1,0 +1,27 @@
+{
+  "name": "testproject21",
+  "version": "1.0.0",
+  "description": "hlep to write",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Karolis Šimkus",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "express-graphiql-explorer": "^0.0.3",
+    "graphql": "^16.8.1",
+    "graphql-http": "^1.22.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
