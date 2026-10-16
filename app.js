@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const express = require('express');
 const morgan = require('morgan');
 const bodyparser = require('body-parser');
@@ -16,7 +18,7 @@ const graphqlResolver = require('./api/graphql/resolvers');
 
 mongoose.connect(
     'mongodb+srv://bite:' +
-     process.env.MongoPass +
+     process.env.MONGO_PASSWORD +
      '@nodejs.76jcfgg.mongodb.net/?retryWrites=true&w=majority&appName=nodejs'
 )
 ;
